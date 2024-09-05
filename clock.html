@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clock.css" ></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tac+One&display=swap" rel="stylesheet">
+    <title>CLOCK</title>
+</head>
+<body>
+    <div class="first">
+        <div class="Second">
+            <H1 id="Date"></H1>
+            <div class="butn">
+                <button class="Clock">Clock</button>
+                <button class="timer">Timer</button>
+
+            </div>
+            <div id="timerDisplay" >
+
+            </div>
+            <div class="third">
+                <span class="forth" id="Hour"></span>
+                <span class="forth" id="Minute"></span>
+                <span class="forth" id="Seconds"></span>
+                <audio id="tickSound"  autoplay loop>
+                    <source src="ticking-clock_1-27477.mp3" type="audio/mp3">
+                     does'nt support</audio>
+            </div>
+        </div>
+    </div>
+    <script src="clock.js"></script>
+</body>
+</html>

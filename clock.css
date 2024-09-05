@@ -1,0 +1,85 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Tac One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+    background-color: black;
+}
+
+.first{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+.Second{
+    height: 100%;
+    width: 50%;
+
+}
+.third{
+    display: flex;
+    justify-content:center ;
+    align-items: flex-start;
+    height: 75%;
+    text-align: center;
+    
+}
+
+.forth{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-right:0;
+    border-top:0;
+    border-bottom:0;
+    border-style:dotted;
+    height:25%;
+    width:25%;
+    font-size: 6rem;
+    overflow: hidden;
+}
+.forth:first-child{
+    border: 0;
+
+}
+h1{
+    font-size: 6rem;
+}
+
+
+.butn button {
+    background-color: white; 
+    border: 1px solid black; 
+    color: black; 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float:center; 
+  }
+  
+ 
+  .butn:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .butn button:not(:last-child) {
+    border-right: none; 
+  }
+  
+  .butn button:hover {
+    background-color: #3e8e41;
+  }
+
+  #timerDisplay{
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+  }
